@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    tools:context="cn.edu.sysu.lab3.Lab3">
+
+
+    <TextView
+        android:id="@+id/fruit_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:height="50dp"
+        android:width="50dp"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:background="@drawable/circle"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:id="@+id/fruit_name"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.51"
+        android:gravity="start"
+        android:padding="15dp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        />
+
+    <TextView
+        android:id="@+id/fruit_price"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.51"
+        android:gravity="start"
+        android:padding="10dp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        />
+
+</LinearLayout>
